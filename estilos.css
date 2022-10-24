@@ -1,0 +1,82 @@
+*{
+    background-color: #2b002b;
+    color: rgb(240, 236, 236);
+    text-align: center;
+    font-family:'IBM Plex Mono';
+   }
+   #imgPerfil{
+       border-radius: 50%;
+       border: solid 5px;
+       border-color: #a16dae;
+       width: 600px;
+       height: 400px;
+   }
+   
+   .titulos{
+       font-size: 200%; 
+       font-style: italic;
+   }
+   
+   h2{
+       font-size: 300%;
+   }
+   
+   #biografia{
+       width: 500px;
+       height: 500px;
+       margin-left: 32%;
+   }
+   .divInline{
+   display: block;
+   }
+   
+   #Loslibros {
+       display: inline-block;
+   }
+
+   #Juegos{
+    display: inline-block;
+   }
+
+   #PersonajesPrincipales {
+    display: inline-block;
+   }
+
+   
+   #filmografias {
+       display: inline-block;
+   }
+   
+   #biografia{
+       display: inline;
+   }
+   
+   #{
+       width: 400px;
+       height: 400px;
+       background-color: bisque;
+       margin: 3px;
+       color: black;
+       font-size: 500%;
+   }
+   
+   .flexcontenedor{
+       display: flex;
+       flex-wrap: wrap;
+       justify-content: space-around;
+    }
+
+
+    #lisa {
+        width: 400px;
+        height: 400px;
+        background-color: bisque;
+        margin: 3px;
+        color: black;
+        font-size: 500%;
+    }
+      
+
+
+
+}
